@@ -1,0 +1,68 @@
+/* $Id$ */
+
+/**
+ * Design by Free CSS Templates, http://www.freecsstemplates.org
+ * Port to Drupal by Ishmael Sanchez, http://ishmaelsanchez.com
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FBE8E8 url(../images/img01.jpg);
+	text-align: justify;
+}
+
+body, input, textarea, select {
+	font: normal small Georgia, "Times New Roman", Times, serif;
+	color: #662C14;
+}
+
+h1, h2, h3 {
+	margin-bottom: 1em;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.7em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+p, blockquote, ul, ol, form {
+	margin-bottom: 1.5em;
+}
+
+blockquote, ul, ol {
+	margin-left: 3em;
+}
+
+blockquote {
+	margin-right: 3em;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: square;
+}
+
+a {
+	color: #662C14;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+hr {
+	display: none;
+}
+

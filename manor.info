@@ -1,0 +1,45 @@
+; $Id$
+
+; The name and description used on the admin/build/themes page.
+name        = The Manor
+description = Design by Free CSS Templates port to Drupal by <a href="http://ishmaelsanchez.com">Ishmael Sanchez</a>
+
+; 'core' specifies the compatible version of Drupal.
+core = 6.x
+
+; 'engine' is the template type, required by phptemplates.
+engine = phptemplate
+
+; Theme Default Stylesheets.
+stylesheets[all][]   = css/basic-html.css
+stylesheets[all][]   = css/manor.css
+stylesheets[print][] = css/print.css
+
+; A nice clean customizable stylesheet
+stylesheets[all][]   = css/custom.css
+
+; Add your IE specific CSS here.
+conditional-stylesheets[if IE][all][] = css/ie.css
+
+; Theme Default jQuery scripts.
+scripts[] = js/scripts.js
+
+; Theme Regions, regions are printed out in page templates
+regions[header]           = Header
+regions[content_top]      = Content Top
+regions[content]          = Main Content
+regions[content_bottom]   = Content Bottom
+regions[left]             = Left Sidebar
+regions[footer]           = Footer
+
+; The screenshot used on the admin/build/themes page.
+screenshot = images/screenshot.png
+
+; Theme Features
+features[] = logo
+features[] = name
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
+
